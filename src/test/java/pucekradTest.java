@@ -13,4 +13,9 @@ class pucekradTest {
     void factorialI() {
         assertEquals(120, pucekrad.factorialI(5));
     }
+
+    @Test
+    void myFactorial() {
+        assertEquals(6, pucekrad.myFactorial(3));
+    }
 }

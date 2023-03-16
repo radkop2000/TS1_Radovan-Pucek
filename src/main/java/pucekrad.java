@@ -8,6 +8,13 @@ public class pucekrad {
         return n * factorial(n-1);
     }
 
+    public static long myFactorial(int n) {
+        if (n == 1) {
+            return 1;
+        }
+        return n * factorial(n-1);
+    }
+
     public static long factorialI(int n) {
         int ret = 1;
         for (int i = 2; i <= n; i++) {
